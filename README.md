@@ -281,10 +281,10 @@ Utilisez le plugin maven-surefire-plugin pour exécuter les tests du projet lors
 Commitez le POM sur github et relancez un build sur Jenkins afin d'observer les évolutions apportées.
 
 #### Création d'archives des sources et des exécutables
-Le plugin maven-assembly-plugin permet de créer des archives. Ce plugin est notamment très utile pour créer des archives des sources ou des fichiers exécutables, cf : http://maven.apache.org/plugins/maven-assembly-plugin/
+Le plugin maven-assembly-plugin permet de créer des archives. Ce plugin est notamment très utile pour créer des archives des sources ou des fichiers exécutables, cf : http://maven.apache.org/plugins/maven-assembly-plugin/ (voir aussi: https://medium.com/@kasunpdh/using-the-maven-assembly-plugin-to-build-a-zip-distribution-5cbca2a3b052)
 
 Étudiez et adaptez l'utilisation de ce plugin dans le projet suivant :
-https://github.com/arnobl/latexdraw/blob/master/latexdraw-core/net.sf.latexdraw.bundle/pom.xml
+https://github.com/latexdraw/latexdraw/blob/master/pom.xml
 pour l'utiliser dans votre projet afin de créer un zip des sources et un autre contenant le jar exécutable.
 
 Commitez les modifications sur github et relancez un build sur Jenkins afin d'observer les évolutions apportées. 
